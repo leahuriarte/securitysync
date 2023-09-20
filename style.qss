@@ -1,0 +1,57 @@
+QWidget#background { 
+    border-image: url(gradient2.png) 0 0 0 0 stretch stretch;
+}
+
+QMainWindow {
+    padding: 10px;
+}
+QWidget {
+    padding: 10px;
+}
+QPushButton {
+  background-color: #F3EFF5;
+  color: #247A4D;
+  font-weight: normal;
+  font-family: Syne;
+  border-radius: 8px;
+  font-size: 30px;
+  border: 1px solid #F3EFF5;
+  margin-top: 10px;
+  outline: 0px;
+  position: center;
+}
+QPushButton:hover,
+QPushButton:focus {
+  background-color: #F3EFF5;
+  border: 3px solid #247A4D;
+}
+
+QLabel {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-family: Syne;
+    font-weight: bold;
+}
+
+QLabel#status {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: Syne;
+    font-weight: normal;
+}
+QLabel#contact{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: Syne;
+    font-weight: normal;
+}
+QLabel#hate {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: Syne;
+    font-weight: normal;
+}
